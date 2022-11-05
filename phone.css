@@ -1,0 +1,90 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+#navbar ul li a{
+    padding: 5px 5px;
+    margin: 4px 8px;
+}
+
+/* Setting up home */
+#home{
+    flex-wrap: wrap;
+    
+}
+#home::before{
+    height: 80%;
+}
+#header{
+    font-size: 1.5rem;
+    font-family: 'Lobster Two', cursive;
+    padding-top: 10px;
+}
+#home p{
+    width: auto;
+    font-size: 1rem;
+    text-align: center;
+}
+.btn{
+    margin: 10px 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 0.6rem;
+}
+/* Setting up Services */
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    margin: 8px 2px;
+    font-size: 1.8rem;
+}
+.box img{
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin: auto;
+}
+.box h1{
+      font-size: 1.1rem;
+}
+.box{
+    border: 2px solid red;
+   flex-wrap: wrap;
+    margin: 15px 1px;
+    padding: 5px 2px;
+    border-radius: 15px;
+    box-shadow: none;
+}
+
+/* Setting Up clients */
+#client{
+    position: relative;
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+.boxx img{
+    height: 100px;
+    width: 100px;
+}
+.container2{
+    flex-wrap: wrap;
+}
+
+/* Setting up contact */
+
+#contactbox form label{
+      margin: 3px 1px;
+      padding: 1px 1px;
+      font-size: .6rem;
+}
+#contactbox form input{   
+      margin: 3px 0px;
+      padding: 3px 2px;
+      font-size: .6rem;
+      width: 80%;
+      height: 15px;
+}
